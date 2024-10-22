@@ -1,39 +1,39 @@
 ---
-name: "Bug report"
-description: "Report a bug with the integration"
+name: "错误报告"
+description: "报告集成中的错误"
 labels: "Bug"
 body:
 - type: markdown
   attributes:
-    value: Before you open a new issue, search through the existing issues to see if others have had the same problem.
+    value: 在提交新问题之前，请先搜索现有问题，看看是否有其他人遇到了相同的问题。
 - type: textarea
   attributes:
-    label: "System Health details"
-    description: "Paste the data from the System Health card in Home Assistant (https://www.home-assistant.io/more-info/system-health#github-issues)"
+    label: "系统健康详情"
+    description: "从 Home Assistant 的系统健康卡片中粘贴数据 (https://www.home-assistant.io/more-info/system-health#github-issues)"
   validations:
     required: true
 - type: checkboxes
   attributes:
-    label: Checklist
+    label: 清单
     options:
-      - label: I have enabled debug logging for my installation.
+      - label: 我已为我的安装启用了调试日志。
         required: true
-      - label: I have filled out the issue template to the best of my ability.
+      - label: 我已经尽我所能填写了问题模板。
         required: true
-      - label: This issue only contains 1 issue (if you have multiple issues, open one issue for each issue).
+      - label: 该问题仅包含 1 个问题（如果您有多个问题，请为每个问题单独提交）。
         required: true
-      - label: This issue is not a duplicate issue of any [previous issues](https://github.com/ludeeus/integration_blueprint/issues?q=is%3Aissue+label%3A%22Bug%22+)..
+      - label: 该问题不是任何[之前问题](https://github.com/XiaoMiku01/hass-hjq/issues?q=is%3Aissue+label%3A%22Bug%22+)的重复问题。
         required: true
 - type: textarea
   attributes:
-    label: "Describe the issue"
-    description: "A clear and concise description of what the issue is."
+    label: "描述问题"
+    description: "对问题的清晰简明描述。"
   validations:
     required: true
 - type: textarea
   attributes:
-    label: Reproduction steps
-    description: "Without steps to reproduce, it will be hard to fix. It is very important that you fill out this part. Issues without it will be closed."
+    label: 复现步骤
+    description: "没有复现步骤，将很难修复。填写此部分非常重要。没有此内容的问题将被关闭。"
     value: |
       1.
       2.
@@ -43,13 +43,13 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: "Debug logs"
-    description: "To enable debug logs check this https://www.home-assistant.io/integrations/logger/, this **needs** to include _everything_ from startup of Home Assistant to the point where you encounter the issue."
+    label: "调试日志"
+    description: "要启用调试日志，请查看此链接 https://www.home-assistant.io/integrations/logger/，这**需要**包含从 Home Assistant 启动到遇到问题的所有内容。"
     render: text
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: "Diagnostics dump"
-    description: "Drag the diagnostics dump file here. (see https://www.home-assistant.io/integrations/diagnostics/ for info)"
+    label: "诊断转储"
+    description: "拖动诊断转储文件到这里。（详情请见 https://www.home-assistant.io/integrations/diagnostics/）"
