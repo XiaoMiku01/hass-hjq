@@ -44,7 +44,7 @@ body:
 - type: textarea
   attributes:
     label: "调试日志"
-    description: "要启用调试日志，请查看此链接 https://www.home-assistant.io/integrations/logger/，这**需要**包含从 Home Assistant 启动到遇到问题的所有内容。"
+    description: "要启用调试日志，请查看此链接 (https://www.home-assistant.io/integrations/logger/) ，这**需要**包含从 Home Assistant 启动到遇到问题的所有内容。"
     render: text
   validations:
     required: true
@@ -52,4 +52,4 @@ body:
 - type: textarea
   attributes:
     label: "诊断转储"
-    description: "拖动诊断转储文件到这里。（详情请见 https://www.home-assistant.io/integrations/diagnostics/）"
+    description: "拖动诊断转储文件到这里。(详情请见 https://www.home-assistant.io/integrations/diagnostics/)"
