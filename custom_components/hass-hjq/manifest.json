@@ -5,11 +5,11 @@
     "config_flow": true,
     "dependencies": ["ffmpeg"],
     "documentation": "https://github.com/XiaoMiku01/hass-hjq",
-    "issue_tracker": "https://github.com/XiaoMiku01/hass-hjq/issues",
     "homekit": {},
     "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/XiaoMiku01/hass-hjq/issues",
     "requirements": [],
     "ssdp": [],
-    "zeroconf": [],
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "zeroconf": []
 }
