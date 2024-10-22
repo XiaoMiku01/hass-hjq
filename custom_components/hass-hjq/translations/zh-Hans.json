@@ -1,0 +1,17 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "username": "手机号",
+                    "password": "密码"
+                },
+                "title": "和家亲登录",
+                "description": "请输入您的和家亲账号信息"
+            }
+        },
+        "error": {
+            "invalid_auth": "登录失败，请检查您的账号和密码"
+        }
+    }
+}

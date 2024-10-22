@@ -1,0 +1,15 @@
+{
+    "domain": "hass-hjq",
+    "name": "移动爱家（原和家亲）",
+    "codeowners": ["@XiaoMiku01"],
+    "config_flow": true,
+    "dependencies": ["ffmpeg"],
+    "documentation": "https://github.com/XiaoMiku01/hass-hjq",
+    "issue_tracker": "https://github.com/XiaoMiku01/hass-hjq/issues",
+    "homekit": {},
+    "iot_class": "cloud_polling",
+    "requirements": [],
+    "ssdp": [],
+    "zeroconf": [],
+    "version": "0.1.0"
+}

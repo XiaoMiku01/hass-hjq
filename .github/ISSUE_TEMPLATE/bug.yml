@@ -1,7 +1,7 @@
 ---
 name: "错误报告"
 description: "报告集成中的错误"
-labels: "Bug"
+labels: [Bug]
 body:
 - type: markdown
   attributes:
@@ -24,10 +24,12 @@ body:
         required: true
       - label: 该问题不是任何[之前问题](https://github.com/XiaoMiku01/hass-hjq/issues?q=is%3Aissue+label%3A%22Bug%22+)的重复问题。
         required: true
+      - label: 我已确保提交的日志中不包含隐私信息（手机号、token......）。
+        required: true
 - type: textarea
   attributes:
     label: "描述问题"
-    description: "对问题的清晰简明描述。"
+    description: "对问题的清晰简明描述。带上具体的设备种类和设备型号。"
   validations:
     required: true
 - type: textarea
