@@ -1,47 +1,30 @@
-# Notice
+# 移动爱家（原和家亲）Home Assistant 集成
 
-The component and platforms in this repository are not meant to be used by a
-user, but as a "blueprint" that custom component developers can build
-upon, to make more awesome stuff.
+本项目正在开发阶段
 
-HAVE FUN! 😎
+## 支持设备
 
-## Why?
+-   [ ] 手机号密码登录
+-   [ ] 网络摄像头接入
+-   [ ] 智能插座开关接入
+-   [ ] 其他设备接入（待定）
 
-This is simple, by having custom_components look (README + structure) the same
-it is easier for developers to help each other and for users to start using them.
+## 使用方法
 
-If you are a developer and you want to add things to this "blueprint" that you think more
-developers will have use for, please open a PR to add it :)
+待完善
 
-## What?
+## 免责声明（Disclaimer）
 
-This repository contains multiple files, here is a overview:
+本项目的代码及相关文档是出于开源社区贡献的目的开发和发布，旨在为 [Home Assistant](https://github.com/home-assistant) 提供兼容性支持和功能扩展。作者不对任何个人或组织使用本代码所造成的任何直接或间接后果承担责任。该代码及其衍生产品仅限于合法用途，用户需自行确保其在使用本项目时遵守相关法律法规，包括但不限于知识产权和逆向工程相关的法律条款。
 
-File | Purpose | Documentation
--- | -- | --
-`.devcontainer.json` | Used for development/testing with Visual Studio Code. | [Documentation](https://code.visualstudio.com/docs/remote/containers)
-`.github/ISSUE_TEMPLATE/*.yml` | Templates for the issue tracker | [Documentation](https://help.github.com/en/github/building-a-strong-community/configuring-issue-templates-for-your-repository)
-`.vscode/tasks.json` | Tasks for the devcontainer. | [Documentation](https://code.visualstudio.com/docs/editor/tasks)
-`custom_components/integration_blueprint/*` | Integration files, this is where everything happens. | [Documentation](https://developers.home-assistant.io/docs/creating_component_index)
-`CONTRIBUTING.md` | Guidelines on how to contribute. | [Documentation](https://help.github.com/en/github/building-a-strong-community/setting-guidelines-for-repository-contributors)
-`LICENSE` | The license file for the project. | [Documentation](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/licensing-a-repository)
-`README.md` | The file you are reading now, should contain info about the integration, installation and configuration instructions. | [Documentation](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
-`requirements.txt` | Python packages used for development/lint/testing this integration. | [Documentation](https://pip.pypa.io/en/stable/user_guide/#requirements-files)
+本项目代码基于 [Apache License 2.0](./LICENSE) 许可证发布，用户可以根据该许可证的条款自由使用、修改和分发本项目代码，但需保留原始的版权声明。
 
-## How?
+**免责声明要点**：
 
-1. Create a new repository in GitHub, using this repository as a template by clicking the "Use this template" button in the GitHub UI.
-1. Open your new repository in Visual Studio Code devcontainer (Preferably with the "`Dev Containers: Clone Repository in Named Container Volume...`" option).
-1. Rename all instances of the `integration_blueprint` to `custom_components/<your_integration_domain>` (e.g. `custom_components/awesome_integration`).
-1. Rename all instances of the `Integration Blueprint` to `<Your Integration Name>` (e.g. `Awesome Integration`).
-1. Run the `scripts/develop` to start HA and test out your new integration.
+1. 本代码和项目仅出于学习、研究和开源社区贡献的目的，作者不保证代码的准确性、完整性和可用性。
+2. 用户需自行承担使用本代码的法律责任，并自行确保其在使用该代码时未侵犯任何第三方的权利。
+3. 本代码未与任何官方产品或服务相关联，亦不代表任何第三方利益。
+4. 作者不对任何因使用本项目代码而导致的损害、数据丢失或其他任何损失承担责任。
+5. **如果您认为本项目中的任何部分侵犯了您的合法权益，请立即通过 <xiao@m1ku.de> 与作者联系，作者将在确认后尽快删除相关内容。**
 
-## Next steps
-
-These are some next steps you may want to look into:
-- Add tests to your integration, [`pytest-homeassistant-custom-component`](https://github.com/MatthewFlamm/pytest-homeassistant-custom-component) can help you get started.
-- Add brand images (logo/icon) to https://github.com/home-assistant/brands.
-- Create your first release.
-- Share your integration on the [Home Assistant Forum](https://community.home-assistant.io/).
-- Submit your integration to [HACS](https://hacs.xyz/docs/publish/start).
+使用本代码即表示您同意以上免责声明内容。
