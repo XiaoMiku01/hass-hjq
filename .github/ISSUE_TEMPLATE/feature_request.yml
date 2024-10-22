@@ -1,47 +1,47 @@
 ---
-name: "Feature request"
-description: "Suggest an idea for this project"
+name: "功能请求"
+description: "为此项目提出一个想法"
 labels: "Feature+Request"
 body:
 - type: markdown
   attributes:
-    value: Before you open a new feature request, search through the existing feature requests to see if others have had the same idea.
+    value: 在提交新的功能请求之前，请先搜索现有的功能请求，看看是否有其他人已经提出了相同的想法。
 - type: checkboxes
   attributes:
-    label: Checklist
+    label: 清单
     options:
-      - label: I have filled out the template to the best of my ability.
+      - label: 我已尽力填写了模板。
         required: true
-      - label: This only contains 1 feature request (if you have multiple feature requests, open one feature request for each feature request).
+      - label: 此请求仅包含 1 个功能请求（如果您有多个功能请求，请为每个功能请求单独提交）。
         required: true
-      - label: This issue is not a duplicate feature request of [previous feature requests](https://github.com/ludeeus/integration_blueprint/issues?q=is%3Aissue+label%3A%22Feature+Request%22+).
+      - label: 该问题不是任何[之前功能请求](https://github.com/XiaoMiku01/hass-hjq/issues?q=is%3Aissue+label%3A%22Feature+Request%22+)的重复请求。
         required: true
 
 - type: textarea
   attributes:
-    label: "Is your feature request related to a problem? Please describe."
-    description: "A clear and concise description of what the problem is."
-    placeholder: "I'm always frustrated when [...]"
+    label: "您的功能请求是否与某个问题相关？请描述。"
+    description: "对问题的清晰简明描述。"
+    placeholder: "当我遇到 [...] 时，我感到很沮丧"
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: "Describe the solution you'd like"
-    description: "A clear and concise description of what you want to happen."
+    label: "描述您想要的解决方案"
+    description: "对您希望发生的事情进行清晰简明的描述。"
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: "Describe alternatives you've considered"
-    description: "A clear and concise description of any alternative solutions or features you've considered."
+    label: "描述您考虑过的替代方案"
+    description: "对您考虑过的任何替代解决方案或功能进行清晰简明的描述。"
   validations:
     required: true
 
 - type: textarea
   attributes:
-    label: "Additional context"
-    description: "Add any other context or screenshots about the feature request here."
+    label: "附加上下文"
+    description: "在此添加与功能请求相关的其他上下文或截图。"
   validations:
     required: true
