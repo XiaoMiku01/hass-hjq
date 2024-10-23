@@ -1,6 +1,7 @@
 # 移动爱家（原和家亲）Home Assistant 集成
 
-本项目正在开发阶段, 如果遇到 Bug 请通过 [issue](https://github.com/XiaoMiku01/hass-hjq/issues) 反馈, [这里](https://github.com/XiaoMiku01/hass-hjq/issues/3) 统计一下`可用`/`不可用`的设备
+本项目正在开发阶段, 如果遇到 Bug 请通过 [issue](https://github.com/XiaoMiku01/hass-hjq/issues) 反馈, [这里](https://github.com/XiaoMiku01/hass-hjq/issues/3) 统计一下`可用`/`不可用`的设备  
+本人手中的设备有限, 欢迎其他开发者贡献代码  
 
 ## 支持设备
 
