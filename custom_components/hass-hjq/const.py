@@ -1,4 +1,4 @@
 """Constants for the 和家亲 integration."""
 
-DOMAIN = "hass-hjq"
+DOMAIN = "hass_hjq"
 PLATFORMS = ["camera"]
