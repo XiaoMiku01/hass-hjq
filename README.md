@@ -1,6 +1,6 @@
 # 移动爱家（原和家亲）Home Assistant 集成
 
-本项目正在开发阶段, 如果遇到 Bug 请通过 [issue](https://github.com/XiaoMiku01/hass-hjq/issues) 反馈, [这里](https://github.com/XiaoMiku01/hass-hjq/issues/3) 统计一下`可用`/`不可用`的设备  
+本项目正在开发阶段, 如果遇到 Bug 请通过 [issue](https://github.com/XiaoMiku01/hass_hjq/issues) 反馈, [这里](https://github.com/XiaoMiku01/hass_hjq/issues/3) 统计一下`可用`/`不可用`的设备  
 本人手中的设备有限, 欢迎其他开发者贡献代码  
 
 ## 支持设备
@@ -15,9 +15,9 @@
 
 1. 使用你选择的工具打开 Home Assistant 配置的目录（你可以在该目录中找到 `configuration.yaml` 文件）。
 2. 如果该目录中没有 `custom_components` 文件夹，则需要创建一个。
-3. 在 `custom_components` 文件夹中，创建一个名为 `hass-hjq` 的新文件夹。
-4. 从该仓库的 `custom_components/hass-hjq/` 目录中下载所有文件。
-5. 将下载的文件放入你刚创建的 `hass-hjq` 文件夹中。
+3. 在 `custom_components` 文件夹中，创建一个名为 `hass_hjq` 的新文件夹。
+4. 从该仓库的 `custom_components/hass_hjq/` 目录中下载所有文件。
+5. 将下载的文件放入你刚创建的 `hass_hjq` 文件夹中。
 6. 重启 Home Assistant。
 7. 在 Home Assistant 的 UI 中，进入 “设置” -> “集成”，点击 “+” 并搜索 “移动爱家（原和家亲）”。
 
