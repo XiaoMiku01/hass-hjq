@@ -1,5 +1,5 @@
 {
-    "domain": "hass-hjq",
+    "domain": "hass_hjq",
     "name": "移动爱家（原和家亲）",
     "codeowners": ["@XiaoMiku01"],
     "config_flow": true,
